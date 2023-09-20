@@ -32,13 +32,6 @@ p {
 }
 
 /* Navigation styles */
-nav {
-    background-color: #5e8745; /* Dark green background for nav bar */
-    position: fixed;
-    width: 100%;
-    top: 0
-    z-index: 100;
-}
 
 nav ul li {
     display: inline;
