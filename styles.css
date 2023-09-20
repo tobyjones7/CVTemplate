@@ -36,7 +36,7 @@ nav {
     background-color: #5e8745; /* Dark green background for nav bar */
     position: fixed;
     width: 100%;
-    top: 70px; /* Adjust this value to create the desired space below the header */
+    top: 0
     z-index: 100;
 }
 
