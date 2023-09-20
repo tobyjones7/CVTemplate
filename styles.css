@@ -65,10 +65,6 @@ section h2 {
     color: #5e8745; /* Dark green for section headings */
 }
 
-section#about {
-    margin-top: 70px;
-}
-
 /* Education styles */
 section#education p {
     font-size: 1.2rem;
