@@ -18,11 +18,8 @@ header {
     background-color: #5e8745; /* Dark green header background */
     color: #fff;
     padding: 20px;
-    text-align: center;
-    position: fixed;
     width: 100%;
-    top: 0;
-    z-index: 100; /* To ensure it's above other content */
+    text-align: center;
 }
 
 header h1 {
