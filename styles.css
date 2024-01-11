@@ -1,4 +1,4 @@
-/* Author Kyle Thomas */
+/* Author Toby Jones */
 /* Reset some default styles */
 * {
     margin: 0;
@@ -8,14 +8,14 @@
 
 /* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f5e9; /* Light green background */
-    color: #333;
+    font-family: MetricHPE, sans-serif;
+    background-color: #c979bf; /* Light green background */
+    color: #c979bf;
 }
 
 /* Header styles */
 header {
-    background-color: #5e8745; /* Dark green header background */
+    background-color: #554587; /* Purple header background */
     color: #fff;
     padding: 20px;
     width: 100%;
@@ -52,17 +52,18 @@ nav a:hover {
 
 /* Section styles */
 section {
-    background-color: #fff;
+    background-color: #fcfcfc;
     padding: 40px;
     margin: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align:center
 }
 
 section h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
-    color: #5e8745; /* Dark green for section headings */
+    color: #554587; /* Dark green for section headings */
 }
 
 /* Education styles */
@@ -74,7 +75,7 @@ section#education p {
 /* Experience styles */
 .experience-entry h3 {
     font-size: 1.4rem;
-    color: #5e8745; /* Dark green for experience headings */
+    color: #6a3b79 /* Dark green for experience headings */
 }
 
 .experience-entry ul {
@@ -91,14 +92,14 @@ section#skills ul {
 
 section#skills li {
     font-size: 1.2rem;
-    color: #5e8745; /* Dark green for skill text */
+    color: #6a3b79; /* Dark green for skill text */
     margin-bottom: 10px;
 }
 
 /* Activities styles */
 .activity-entry h3 {
     font-size: 1.4rem;
-    color: #5e8745; /* Dark green for activity titles */
+    color: #6a3b79; /* Dark green for activity titles */
 }
 
 /* Footer styles */
@@ -141,7 +142,7 @@ nav ul.active li {
 
 /* CSS for animations */
 .button {
-    background-color: #333;
+    background-color: #ce2d2d;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -150,6 +151,6 @@ nav ul.active li {
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: #ce2d2d;
     transform: scale(1.05);
 }
